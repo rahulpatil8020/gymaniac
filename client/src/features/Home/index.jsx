@@ -6,6 +6,7 @@ import AddPostWidget from "./AddPostWidget";
 import GymInfoWidget from "./GymInfoWidget";
 import ConnectWidget from "./ConnectWidget";
 import Posts from "features/Posts/Posts";
+import AISuggestionsWidget from "./AISuggestionsWidget";
 
 const HomePage = () => {
   // eslint-disable-next-line no-unused-vars
@@ -29,6 +30,14 @@ const HomePage = () => {
               }}
             >
               <GoalsWidget />
+            </Box>
+            <Box
+              sx={{
+                marginTop: 5,
+                overflow: "hidden",
+              }}
+            >
+              <AISuggestionsWidget />
             </Box>
           </Box>
         </Grid>
