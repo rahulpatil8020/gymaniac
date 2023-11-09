@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Avatar, Typography, useTheme, Stack, Link } from "@mui/material";
+import { Box, Avatar, Typography, useTheme, Stack } from "@mui/material";
+import { Link } from "react-router-dom";
 import avatarImage from "../assets/1.jpg";
 
 const AvatarAndName = ({ username, name }) => {
@@ -18,9 +19,11 @@ const AvatarAndName = ({ username, name }) => {
       <Link
         sx={{ textDecoration: "none" }}
         component={"button"}
-        onClick={() => {
-          console.log("Clicked on Link");
-        }}
+        to={`/profile/${username}`}
+        style={{ textDecoration: "none" }}
+        // onClick={() => {
+        //   console.log("Clicked on Link");
+        // }}
       >
         <Stack alignItems={"start"}>
           <Typography
