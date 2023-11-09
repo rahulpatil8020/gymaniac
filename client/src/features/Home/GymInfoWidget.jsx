@@ -29,7 +29,7 @@ const GymInfoWidget = () => {
               </FlexBetween>
               <FlexBetween>
                 <Typography variant="h6">Fees</Typography>
-                <Typography>50$/month</Typography>
+                <Typography>$50/month</Typography>
               </FlexBetween>
               <FlexBetween>
                 <Typography variant="h6">Due</Typography>
