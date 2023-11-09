@@ -29,7 +29,7 @@ function App() {
                 <Route element={<Layout />}>
                   <Route index path="/" element={<HomePage />} />
                   <Route path="/chat" element={<ChatPage />} />
-                  <Route path="/profile" element={<ProfilePage />} />
+                  <Route path="/profile/:id" element={<ProfilePage />} />
                 </Route>
               </Route>
             </Route>
