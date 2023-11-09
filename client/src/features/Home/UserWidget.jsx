@@ -7,10 +7,9 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { selectUserInfo } from "features/User/userSlice";
 
-const UserWidget = () => {
+const UserWidget = ({ userInfo }) => {
   // eslint-disable-next-line no-unused-vars
   const theme = useTheme();
-  const userInfo = useSelector(selectUserInfo);
   const fullName = userInfo?.firstName + " " + userInfo?.lastName;
   return (
     <WidgetWrapper>

@@ -7,8 +7,11 @@ import GymInfoWidget from "./GymInfoWidget";
 import ConnectWidget from "./ConnectWidget";
 import Posts from "features/Posts/Posts";
 import AISuggestionsWidget from "./AISuggestionsWidget";
+import { useSelector } from "react-redux";
+import { selectUserInfo } from "features/User/userSlice";
 
 const HomePage = () => {
+  const userInfo = useSelector(selectUserInfo);
   // eslint-disable-next-line no-unused-vars
   return (
     <Container maxWidth="lg">
@@ -22,7 +25,7 @@ const HomePage = () => {
               justifyContent: "center",
             }}
           >
-            <UserWidget />
+            <UserWidget userInfo={userInfo} />
             <Box
               sx={{
                 marginTop: 5,
@@ -37,12 +40,12 @@ const HomePage = () => {
                 overflow: "hidden",
               }}
             >
-              <AISuggestionsWidget />
+              <AISuggestionsWidget userInfo={userInfo} />
             </Box>
           </Box>
         </Grid>
         <Grid paddingBottom={2} item xs={12} md={6}>
-          <AddPostWidget />
+          <AddPostWidget userInfo={userInfo} />
           <Posts />
         </Grid>
         <Grid item xs={12} md={3}>

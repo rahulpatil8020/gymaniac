@@ -21,13 +21,12 @@ import { useSelector } from "react-redux";
 import { selectUserInfo } from "features/User/userSlice";
 import { useAddNewPostMutation } from "features/Posts/postsApiSlice";
 
-const AddPostWidget = () => {
+const AddPostWidget = ({ userInfo }) => {
   const theme = useTheme();
   const [image, setImage] = useState(null);
   const [multiline, setMultiline] = useState(false);
   const [caption, setCaption] = useState("");
   const [errMsg, setErrMsg] = useState("");
-  const userInfo = useSelector(selectUserInfo);
   const abortController = new AbortController();
 
   const [addNewPost, { isLoading, isSuccess, isError, error }] =
