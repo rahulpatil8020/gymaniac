@@ -36,6 +36,13 @@ const Comments = ({ username, comments, postId }) => {
   const handleCommentChange = (e) => {
     setCommentText(e.target.value);
   };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleUploadComment();
+    }
+  };
+
   return (
     <>
       {comments.length !== 0 ? (
@@ -70,6 +77,7 @@ const Comments = ({ username, comments, postId }) => {
         placeholder={"Add a comment..."}
         value={commentText}
         onChange={handleCommentChange}
+        onKeyDown={handleKeyDown}
       />
     </>
   );
