@@ -14,7 +14,11 @@ export const userApiSlice = apiSlice.injectEndpoints({
         }
       },
     }),
+    getUserInfoByUsername: builder.query({
+      query: (username) => `api/v1/user/${username}`,
+    }),
   }),
 });
 
-export const { useGetUserInfoQuery } = userApiSlice;
+export const { useGetUserInfoQuery, useGetUserInfoByUsernameQuery } =
+  userApiSlice;
