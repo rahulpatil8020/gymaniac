@@ -16,6 +16,27 @@ const getUser = async (req, res) => {
   }
 };
 
+const getUserByUsername = async (req, res) => {
+  const username = req.params?.id;
+  const currentUser = req.user;
+  let user = null;
+  try {
+    if (username === currentUser) {
+      user = await User.findOne({ username: username })
+        .select("-password")
+        .lean();
+    } else {
+      user = await User.findOne({ username: username })
+        .select("-password -personalInfo -workoutPlans")
+        .lean();
+    }
+    if (!user) return res.status(404).send(`No user with username ${username}`);
+    res.status(200).json(user);
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+};
+
 const updateUser = async (req, res) => {
   const { id } = req.params;
   const { user } = req.body;
@@ -43,4 +64,4 @@ const deleteUser = async (req, res) => {
   }
 };
 
-module.exports = { getUser, deleteUser, updateUser };
+module.exports = { getUser, getUserByUsername, deleteUser, updateUser };
