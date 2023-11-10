@@ -92,6 +92,7 @@ const PostWidget = ({ postId }) => {
     if (post?.likedBy?.includes(username)) setHasUserLiked(true);
     else setHasUserLiked(false);
   }, [post, username]);
+
   const handleCommentsOpen = () => {
     setCommentsOpen((prev) => !prev);
   };
@@ -142,9 +143,16 @@ const PostWidget = ({ postId }) => {
               horizontal: "left",
             }}
           >
-            <MenuItem onClick={handleClose}>Update</MenuItem>
-            <MenuItem onClick={handleDeletePost}>Delete</MenuItem>
-            {/* <MenuItem onClick={handleClose}>Logout</MenuItem> */}
+            {username === post?.creator ? (
+              <>
+                <MenuItem onClick={handleClose}>Update</MenuItem>
+                <MenuItem onClick={handleDeletePost}>Delete</MenuItem>
+                <MenuItem>Share</MenuItem>
+                {/* <MenuItem onClick={handleClose}>Logout</MenuItem> */}
+              </>
+            ) : (
+              <MenuItem>Share</MenuItem>
+            )}
           </Menu>
         </FlexBetween>
         <Typography>{post.caption}</Typography>
