@@ -17,8 +17,20 @@ export const userApiSlice = apiSlice.injectEndpoints({
     getUserInfoByUsername: builder.query({
       query: (username) => `api/v1/user/${username}`,
     }),
+    updateUserInfo: builder.mutation({
+      query: (userInfo) => {
+        return {
+          url: `api/v1/user/${userInfo?.username}`,
+          method: "PATCH",
+          body: { ...userInfo },
+        };
+      },
+    }),
   }),
 });
 
-export const { useGetUserInfoQuery, useGetUserInfoByUsernameQuery } =
-  userApiSlice;
+export const {
+  useGetUserInfoQuery,
+  useGetUserInfoByUsernameQuery,
+  useUpdateUserInfoMutation,
+} = userApiSlice;

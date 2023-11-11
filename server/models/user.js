@@ -14,6 +14,7 @@ const userSchema = mongoose.Schema({
   role: { type: String, required: true },
   personalInfo: {
     type: Object,
+    default: null,
   },
 });
 

@@ -39,17 +39,36 @@ const getUserByUsername = async (req, res) => {
 
 const updateUser = async (req, res) => {
   const { id } = req.params;
-  const { user } = req.body;
+  const user = req.body;
   try {
-    if (!mongoose.Types.ObjectId.isValid(id))
-      return res.status(404).send(`No user with id ${id}`);
+    const existingUser = await User.findOne({ username: id });
 
-    const updatedUser = await User.findByIdAndUpdate(id, user, { new: true });
+    if (!existingUser) {
+      return res.status(404).send(`No user with username ${username}`);
+    }
+    // Update the existing user with the new data
+    existingUser.set(user);
+    const updatedUser = await existingUser.save();
+
     res.status(200).json(updatedUser);
   } catch (error) {
-    res.status(404).json({ message: error.message });
+    res.status(500).json({ message: error.message });
   }
 };
+
+// const updateUser = async (req, res) => {
+//   const { username } = req.params;
+//   const { user } = req.body;
+//   try {
+//     const user = await User.findOne({ username: username });
+//     if (!user) return res.status(404).send(`No user with username ${username}`);
+
+//     const updatedUser = await User.findByIdAndUpdate(id, user, { new: true });
+//     res.status(200).json(updatedUser);
+//   } catch (error) {
+//     res.status(404).json({ message: error.message });
+//   }
+// };
 
 const deleteUser = async (req, res) => {
   const { id } = req.body;
