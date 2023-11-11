@@ -3,6 +3,7 @@ import { TextField, Grid, InputAdornment, IconButton } from "@mui/material";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 const InputField = ({
+  notRequired,
   half,
   name,
   handleChange,
@@ -15,6 +16,7 @@ const InputField = ({
   multiline,
   value,
   errorMessage,
+  inputProps,
 }) => {
   return (
     <Grid item xs={12} sm={half ? 6 : 12}>
@@ -23,28 +25,13 @@ const InputField = ({
         name={name}
         onChange={handleChange}
         variant="outlined"
-        required
+        required={!notRequired}
         fullWidth
         label={label}
         autoFocus={autoFocus}
         type={type}
         autoComplete={autoComplete}
-        InputProps={
-          name === "password"
-            ? {
-                endAdornment: (
-                  <InputAdornment position="end">
-                    <IconButton
-                      aria-label="toggle password visibility"
-                      onClick={handleShowPassword}
-                    >
-                      {type === "password" ? <Visibility /> : <VisibilityOff />}
-                    </IconButton>
-                  </InputAdornment>
-                ),
-              }
-            : null
-        }
+        InputProps={inputProps}
         rows={rows}
         multiline={multiline}
         error={errorMessage ? true : false}
@@ -54,3 +41,20 @@ const InputField = ({
 };
 
 export default InputField;
+
+// {
+//   name === "password"
+//     ? {
+//         endAdornment: (
+//           <InputAdornment position="end">
+//             <IconButton
+//               aria-label="toggle password visibility"
+//               onClick={handleShowPassword}
+//             >
+//               {type === "password" ? <Visibility /> : <VisibilityOff />}
+//             </IconButton>
+//           </InputAdornment>
+//         ),
+//       }
+//     : null
+// }

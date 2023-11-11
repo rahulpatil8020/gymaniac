@@ -4,6 +4,7 @@ const {
   getUser,
   updateUser,
   deleteUser,
+  getUserByUsername,
 } = require("../controllers/userController");
 const verifyJWT = require("../middleware/verifyJWT");
 
@@ -12,7 +13,8 @@ const router = express.Router();
 router.use(verifyJWT);
 
 router.route("/").get(getUser);
-router.route("/").patch(updateUser);
+router.route("/:id").get(getUserByUsername);
+router.route("/:id").patch(updateUser);
 router.route("/").delete(deleteUser);
 
 module.exports = router;
