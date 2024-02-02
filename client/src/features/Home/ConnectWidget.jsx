@@ -30,7 +30,7 @@ const ConnectWidget = () => {
               if (i <= 3) {
                 return (
                   <FlexBetween key={i}>
-                    <AvatarAndName username="rahulpatil" name="Rahul Patil" />
+                    <AvatarAndName username="yashurade" name="Yash Urade" />
                     <IconButton>
                       <MessageOutlinedIcon />
                     </IconButton>

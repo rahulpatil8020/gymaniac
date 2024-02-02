@@ -7,6 +7,8 @@ import {
   Alert,
   Backdrop,
   CircularProgress,
+  InputAdornment,
+  IconButton,
 } from "@mui/material";
 import InputField from "components/InputField";
 import { useLoginMutation } from "./authApiSlice";
@@ -14,6 +16,8 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { setCredentials } from "./authSlice";
+import Visibility from "@mui/icons-material/Visibility";
+import VisibilityOff from "@mui/icons-material/VisibilityOff";
 
 const LoginForm = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -63,6 +67,20 @@ const LoginForm = () => {
       </Alert>
     </Snackbar>
   );
+
+  const inputProps = {
+    endAdornment: (
+      <InputAdornment position="end">
+        <IconButton
+          aria-label="toggle password visibility"
+          onClick={handleShowPassword}
+        >
+          <Visibility />
+        </IconButton>
+      </InputAdornment>
+    ),
+  };
+
   return (
     <>
       <Backdrop
@@ -88,6 +106,7 @@ const LoginForm = () => {
             handleChange={handlePasswordChange}
             type={showPassword ? "text" : "password"}
             handleShowPassword={handleShowPassword}
+            inputProps={inputProps}
           />
         </Grid>
         <Button
