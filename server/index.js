@@ -15,10 +15,19 @@ const connectDB = require("./config/dbConn");
 const postRoutes = require("./routes/post.js");
 const multer = require("multer");
 const { createPost } = require("./controllers/postController.js");
+const prometheus = require("prom-client");
 
 dotenv.config();
 
 const app = express();
+
+// Prometheus metric initialization
+const httpRequestDurationMicroseconds = new prometheus.Histogram({
+  name: "http_request_duration_seconds",
+  help: "Duration of HTTP requests in seconds",
+  labelNames: ["method", "route", "code"],
+  buckets: [0.1, 0.5, 1, 1.5, 2, 2.5, 3],
+});
 
 connectDB();
 const storage = multer.memoryStorage();
@@ -26,6 +35,20 @@ const upload = multer({ storage: storage });
 // app.use(upload.any());
 
 app.use(logger);
+
+// Prometheus middleware
+app.use((req, res, next) => {
+  const end = httpRequestDurationMicroseconds.startTimer();
+  res.on("finish", () => {
+    end({
+      method: req.method,
+      route: req.route ? req.route.path : req.url,
+      code: res.statusCode,
+    });
+  });
+  next();
+});
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors(corsOptions));
@@ -43,6 +66,17 @@ app.post("/api/v1/post", upload.single("image"), createPost);
 app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/post", postRoutes);
+
+app.get("/metrics", async (req, res) => {
+  try {
+    const metricsString = await prometheus.register.metrics();
+    res.set("Content-Type", prometheus.register.contentType);
+    res.end(metricsString);
+  } catch (error) {
+    console.error("Error generating metrics:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
 
 app.all("*", (req, res) => {
   a;
