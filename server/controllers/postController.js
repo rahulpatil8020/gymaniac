@@ -36,41 +36,6 @@ const getPost = async (req, res) => {
   }
 };
 
-// const createPost = async (req, res) => {
-//   const { creator, caption, creatorName, createdOn } = req.body;
-//   const image = req.file;
-
-//   try {
-//     let post;
-
-//     if (image) {
-//       const imageKey = await uploadToS3({ file: image, username: creator });
-
-//       post = {
-//         creator,
-//         caption,
-//         creatorName,
-//         imageKey: imageKey?.key,
-//         createdOn,
-//       };
-//     } else {
-//       post = {
-//         creator,
-//         caption,
-//         creatorName,
-//         createdOn,
-//       };
-//     }
-
-//     const newPost = new Post(post);
-//     await newPost.save();
-
-//     res.status(200).json(newPost);
-//   } catch (error) {
-//     res.status(404).json({ message: error.message });
-//   }
-// };
-
 const createPost = async (req, res) => {
   const { creator, caption, creatorName, createdOn } = req.body;
   // Access the image data from req.file
