@@ -12,6 +12,10 @@ const userSchema = mongoose.Schema({
   workoutPlans: { type: Array },
   currentWorkoutPlan: { type: String },
   role: { type: String, required: true },
+  personalInfo: {
+    type: Object,
+    default: null,
+  },
 });
 
 const User = mongoose.model("User", userSchema);

@@ -9,6 +9,7 @@ const InputAndIcon = ({
   fullWidth,
   onChange,
   value,
+  onKeyDown,
 }) => {
   return (
     <FlexBetween
@@ -21,6 +22,7 @@ const InputAndIcon = ({
         onChange={onChange}
         fullWidth={fullWidth}
         placeholder={placeholder}
+        onKeyDown={onKeyDown}
       />
       {iconButton}
     </FlexBetween>
