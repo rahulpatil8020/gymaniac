@@ -6,6 +6,8 @@ import { selectUserInfo } from "features/User/userSlice";
 import { useGetUserInfoByUsernameQuery } from "./userApiSlice";
 import { useEffect } from "react";
 import PersonalInfoForm from "./PersonalInfoForm";
+import PersonalInfoDisplay from "./PersonalInfoDisplay";
+import BasicInfoDisplay from "./BasicInfoDisplay";
 const ProfilePage = () => {
   const currentUser = useSelector(selectUserInfo);
   const pathname = window.location.pathname;
@@ -18,8 +20,6 @@ const ProfilePage = () => {
     isLoading,
   } = useGetUserInfoByUsernameQuery(username);
 
-  console.log(userInfo, "User info in profile page");
-
   return (
     <Container maxWidth="md">
       <Stack sx={{ marginTop: 3 }} direction="column" spacing={3}>
@@ -28,11 +28,13 @@ const ProfilePage = () => {
             <PersonalInfoForm userInfo={userInfo} />
           )}
         <WidgetWrapper>
-          <Typography>This is Profile Page of {username}</Typography>
-          {currentUser?.username === username && (
-            <Typography>This user is currently logged in</Typography>
-          )}
+          <BasicInfoDisplay userInfo={userInfo} />
         </WidgetWrapper>
+        {currentUser?.username === username && (
+          <WidgetWrapper>
+            <PersonalInfoDisplay personalInfo={userInfo?.personalInfo} />
+          </WidgetWrapper>
+        )}
       </Stack>
     </Container>
   );
