@@ -109,6 +109,11 @@ const PostWidget = ({ postId }) => {
     setAnchorEl(null);
   };
 
+  const handleUpdatePost = async () => {
+    await updatePost({ id: post.id });
+    setAnchorEl(null);
+  };
+
   const handleLikePost = async () => {
     await likePost({ id: post.id, username });
   };
@@ -145,7 +150,7 @@ const PostWidget = ({ postId }) => {
           >
             {username === post?.creator ? (
               <>
-                <MenuItem onClick={handleClose}>Update</MenuItem>
+                <MenuItem onClick={handleUpdatePost}>Update</MenuItem>
                 <MenuItem onClick={handleDeletePost}>Delete</MenuItem>
                 <MenuItem>Share</MenuItem>
                 {/* <MenuItem onClick={handleClose}>Logout</MenuItem> */}

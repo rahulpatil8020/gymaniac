@@ -4,7 +4,7 @@ import { sendMsgToOpenAI } from "./openai";
 const Atlas = () => {
   let suggestions;
   useEffect(() => {
-    suggestions = sendMsgToOpenAI("Give me a good workout plan");
+    // suggestions = sendMsgToOpenAI("Give me a good workout plan");
   }, []);
   return <div>{suggestions}</div>;
 };

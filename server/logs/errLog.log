@@ -58,3 +58,252 @@
 20230801	10:22:42	592ad041-9be1-409f-8cb0-5519e6b4ab51	ReferenceError: a is not defined 	 DELETE 	 /api/v1/post 	 http://localhost:3000
 20230801	11:03:14	c10ac066-b431-4690-89d6-748a8fbc7ffb	ReferenceError: a is not defined 	 DELETE 	 /api/v1/post 	 http://localhost:3000
 20230801	11:03:34	fe592c60-deb0-4b4e-bca7-1cf88ac0d28a	ReferenceError: a is not defined 	 DELETE 	 /api/v1/post 	 http://localhost:3000
+20231110	18:56:56	f6857ca1-cc84-4a01-95c3-3920848bfd12	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231207	20:23:24	24fdb881-5426-4f5f-b9ec-7441fdb8eb1b	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231207	20:24:17	ae0e8309-02e9-4692-8aa2-188cb939d417	ReferenceError: a is not defined 	 GET 	 /api/v1/auth/login 	 undefined
+20231207	20:24:17	8458d929-acbb-4320-9a3d-7a611f28e1bf	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231207	20:24:34	ca79c419-02d5-4d5a-8193-6a598e778ffe	ReferenceError: a is not defined 	 GET 	 /api/v1/auth/signup 	 undefined
+20231207	20:24:34	81abef84-996c-4ba6-aa2f-60de30b91e86	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231207	21:03:17	a74559ea-2d5f-4f8b-9e95-c9c834a4e8f9	ReferenceError: a is not defined 	 GET 	 // 	 undefined
+20231208	17:24:03	8add6934-7af3-4722-bfe2-da6d077b6199	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231208	17:27:32	18009ee2-6315-4000-96d3-024281cd0c47	ReferenceError: a is not defined 	 GET 	 /api/v1/auth/login 	 undefined
+20231208	17:27:57	5a18ed62-17c3-4367-b7d5-3a906d0effcf	ReferenceError: a is not defined 	 GET 	 /api/v1/auth/login 	 undefined
+20231208	17:29:56	db68b5e3-45f8-4e3d-8b07-8f5c662aba15	ReferenceError: a is not defined 	 GET 	 /api/v1/auth/login 	 undefined
+20231208	17:31:08	77c92b42-3003-49f3-9295-e67906d4fb11	ReferenceError: a is not defined 	 GET 	 /api/v1/posts 	 undefined
+20231208	18:16:24	c2a005ad-759c-48ba-8280-02d78aaaf6e2	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:16:39	ffe2afdc-d648-4350-91c2-6996a253f3ff	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:16:54	7d4284e0-dc6b-4ed0-98a6-8f75f8112ed9	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:17:09	6cc1a42c-deb3-4297-a30a-4c15e0423056	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:17:24	8b3eef1e-8a0a-420b-a916-478db124c801	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:17:39	01a3e0a8-898f-4361-9260-d77df14ec012	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:17:54	fe118af9-8f07-4859-9753-970c981cbad0	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:18:09	9b3a876a-346b-4be4-9caf-acd249328476	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:18:24	f4874bed-49f2-416a-8fe2-ee9f14f03f12	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:18:39	fbbee0ce-2299-4b53-94db-98556886f20e	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:18:54	893a7183-b443-420b-8b7e-29294e9f9443	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:19:09	4f6dbd5e-94b4-4316-82d1-f8d770b0112d	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:19:24	5f076b26-456f-474d-92d0-fc1f0ea8d846	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:19:39	0a3a50cb-1d8c-4e0a-b488-89586ff788b9	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:19:54	eb87dded-6651-4307-b2e3-e5edf3a50701	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:20:09	f3658518-e964-4312-b73b-17e634a173a0	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:20:24	e46a6aef-c9d9-4b60-a893-814418e47463	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:20:39	fde4e382-ce62-443b-9ebb-f9f217dcc017	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:20:54	81389f07-4dcc-4a39-b4ed-70913760bde4	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:21:09	009b4af6-ce2b-4894-8a8a-62614472fef3	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:21:24	843c65b2-8b51-4ec0-af05-0cdabde06cbd	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:21:39	bceb7ad9-bd46-41e4-8a42-0261baafbf0f	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:21:54	7c11ec02-2b47-43cb-bad0-36e80f528c3e	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:22:39	57e212c4-c7cc-457c-90a9-cc660b8b95f9	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:22:53	cb93e394-3577-4a9f-a4e9-6b824600e688	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:22:54	f47ecd78-4803-4442-8f83-a5f1df2d9e22	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231208	18:22:54	535ffe5c-d0b8-4e6c-9dd6-96b2c6794985	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:23:09	0526a0c7-4fe5-4a74-adf5-5d4193d25b06	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:23:24	e7082657-6d7f-4678-9b55-322b46c8fea7	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:23:39	a8eb06cf-f098-4d4e-92ff-aee305874cb1	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:23:54	41f6e755-1933-4c01-ae82-801491310787	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:24:09	36545c2e-cf33-492d-a781-58dc7189992a	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:24:24	17bcf29c-9816-42c6-a8db-8478a22b2b2a	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:24:39	c4d9c568-5ffa-4960-8c66-cdb52fac042b	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:24:54	6f6d4c63-1762-4fce-a6ec-7b2ba9151323	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:25:09	3a2459b4-0a88-418e-98c2-d2b4887da44b	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:25:24	234eca88-39c1-4c6e-a943-d2537e27e3a5	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:25:39	6d57b7f4-5651-4bbf-915a-847fbd1c54c9	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:25:54	4a707597-b26a-47c2-8653-b6ac8af4457d	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:26:09	b9f971aa-08a7-4d5d-a833-3fd35e6e58c2	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:26:24	b58f34b0-bb99-4591-9731-d0ef23679650	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:26:39	7f766274-d436-4e77-977d-0a605c4e7419	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:26:54	d35c8306-2433-446d-8ebf-8d0ca2e5b9b1	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:27:09	9fd11b17-7969-43bb-a8b1-75d4aba95ffb	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:27:24	1604947c-d7aa-42ac-b748-93972ded42dc	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:27:39	284a7e2e-6243-4837-9163-851957c2e2bb	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:27:54	7f100338-ac24-4f53-b46c-8b53b8998ff3	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:28:09	1d5e7836-b37c-423c-94ce-01481c4f4017	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:28:24	e5a2950f-192b-4133-9b7c-af63202f9e41	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:28:39	b9c9ce71-4d2d-47a6-b903-8bf656071868	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:28:54	43871f1b-384f-460f-948a-3e4d1ba921c9	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:29:09	853933e5-c19c-4cd4-867b-bb0c85816237	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:29:24	ed84f88f-90c4-401a-b630-256ad047c6a1	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:52:24	ed971415-25a4-4034-954b-f8345e3f4105	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:52:39	aa974051-df1f-4ecc-a47f-698faf285eb1	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:52:54	0699d5f5-7c8a-471a-8d7a-f1a66870174b	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:53:09	c633eb04-51f0-4481-886d-190d8f66ac69	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:53:24	69d77f93-bebe-45c6-93ec-7631846170e7	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:53:39	fc26836e-bae7-4955-be99-8657523411f7	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:53:54	d4169702-a4b3-4995-836b-8f1497972dd3	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:54:09	928e85d6-4fbf-49c4-b263-e3e003d7c384	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:54:24	fb7c77f9-eda7-445e-96d6-349ea753a531	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:54:39	cfd7d542-48bf-4fba-9727-55a4a8ad4f16	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:54:54	bb104095-cd22-4d00-bee8-edcefa567d5d	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:55:09	782601e0-e473-449f-be22-0a03cc5e62d3	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:55:24	50e863dd-e186-4476-9f20-c3d1d22e1e89	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:55:39	c5fef23c-9c01-41e4-99b5-8a7257e856ff	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231208	18:55:54	7d7e92bf-48b2-459f-974d-a42d8bff6131	ReferenceError: a is not defined 	 GET 	 /metrics 	 undefined
+20231210	13:44:48	afe6018d-6f03-4c66-a86d-c86086ce611c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:45:03	3a03b9e0-2fb4-4ae2-b75c-630f469df6af	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:45:18	340ca5b4-d63d-4e88-927c-02a8a0abbe4c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:45:33	9190deb3-ec3b-4683-a0ad-f9812139f69d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:45:48	b92940b0-002e-4ec9-b82b-16ab66862d0d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:46:03	7595843e-3eb5-4dfe-9b90-b57409a52add	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:46:18	ed3c06be-ccca-481e-8f6d-9741ea332670	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:46:33	2dcb28d3-980f-49dc-b884-40bd8980c48d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:46:48	4aa00e63-3ee8-4345-b36c-920ead209576	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:47:03	b275d56e-046e-4625-aa3a-d6b3f2bcfb72	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:47:18	5b432626-161c-437f-802e-a8284f27e062	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:47:33	1fd9a00e-c98b-4817-97e3-80ed1b685959	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:47:48	4ee2caba-9e2b-41e3-8a9e-adca5b6ff372	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:48:03	ecbfd6fa-f35c-4cbf-8368-210f9dc82adf	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:48:18	5acfbc50-a7cb-42b7-859e-fe1cd15a4492	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:48:33	a535c271-3e86-44e9-a683-1d5df4207043	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:48:48	1da088f6-dc9f-4f2f-b59c-835fae96419d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:48:49	d254417c-257d-431b-adfc-d6cfccf9077a	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:48:49	2a3756a9-c28b-4eaa-b07c-2878e7905951	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	13:49:03	b3877359-1494-4a5a-8eaa-ef88a3e4ea72	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:49:05	8ee847ca-2a4a-466d-8f7f-3f279f9894d2	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	13:49:06	e7e121a7-4907-43d9-b9d5-9ac08ff4afce	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	13:49:18	8a5b3439-0157-43a4-90ca-9e61065281cd	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:49:20	3d902af9-4e17-4b1d-8f96-1a06f635bc2f	ReferenceError: a is not defined 	 GET 	 /api/v1/auth/login 	 undefined
+20231210	13:49:20	da19b0ce-b970-46de-b1d0-3817cad2b5b4	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	13:49:26	8c077a1c-8413-444b-bb76-f9af140d36fb	ReferenceError: a is not defined 	 GET 	 /api/v1/auth 	 undefined
+20231210	13:49:27	74bbaa45-40d5-4643-83cf-32c82b77d54f	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	13:49:32	26943572-28dd-4514-9cbc-c10cb05dd0a4	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	13:49:33	54630a55-59f1-4397-a382-8ae011b3e43e	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:49:48	fd6ce8f5-e807-4c22-a799-1edb1d160bf7	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:50:03	a07d0f55-ff75-4f01-af8d-895cd55b4908	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:50:18	3ec7597a-1f58-4b7f-9860-1f463a963f4e	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:50:33	9ac1712a-81d5-4c0d-92ac-e29bde1d6661	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:50:48	d3de8f99-f805-4438-a89d-170ffbb5890f	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:51:03	a89ac17d-5ff2-49dc-b63e-d411a7ff26e1	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:51:18	8aa225de-942d-4c2b-ad60-1b810ff9bd97	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:51:33	e325b2d9-80d5-472a-8c8e-595eef32384f	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:51:48	5004cb70-f610-47a3-a7cd-79b0968f18ad	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:52:03	9084aaee-7756-42ae-afb9-31384464043b	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:52:18	8478a225-0044-4910-95d3-443807d02ff5	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:52:33	3de97bb9-cf76-40fe-8f62-60432aaf00ab	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:52:48	4132bcf6-d2e5-4047-b822-e7087f99e51f	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:53:03	3a3c5a46-1df0-40ca-837a-1573a6f52716	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:53:18	67b8324f-0a4c-40da-a52e-c8ddc16fd86d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:53:33	9450cdd6-d42a-480d-9d65-b458877f32a7	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:53:48	1f5019cd-940d-48c4-8eba-0954be8da0ab	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:54:03	99eda87a-7ade-46f1-8217-86d7575d3e53	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:54:18	45f1905b-ffd1-474e-93d8-19aea315bf42	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:54:33	4325ac2a-4c22-4de3-86e6-f66f95429ba5	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:54:48	008eeaf8-1dd0-4c42-a900-2985136aa24f	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:55:03	8f090208-4994-460f-8167-1bb9d31f5162	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:55:18	2184b7cc-bd74-418e-8473-02a19616fe67	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:55:33	70fbaa91-cc28-46d5-8b33-92f79455752c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:55:48	7124b7ff-8c59-4370-b293-25ebc3fd707d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:56:03	04896b1a-7590-44be-9860-fef0e0e59b51	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:56:18	3886f1c6-5299-490c-86a1-c16d1823bec8	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:56:33	8ce36b1d-5fcb-429f-a761-33477740ea39	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:56:48	0765bb72-30e9-4b12-a3b3-d408c0cc3ea5	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:57:03	5a7260ff-0232-43d9-bc41-0944131f88af	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:57:18	9e92f22e-4b3c-473a-8832-fbb92b16cae0	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:57:33	ef36ac2a-3eec-4493-a32e-9ff3889e302b	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:57:48	05ff0d52-6c84-4983-b67a-704bb5cb055b	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:58:03	4eb0cd51-36a0-4d84-84a1-1ebad003533d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:58:18	0d62a2de-9379-4e42-8e22-444098838170	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:58:33	bc0d8410-e720-48a6-ade1-f943d0df9bbf	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:58:48	298fdcda-2fde-45a9-8c38-0b794e469842	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:59:03	6b13aff3-7c3d-45d2-9f43-4e8f49a11909	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:59:18	2416b620-5a32-42c4-bddf-9524d6dd6fbd	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:59:33	3c637832-4e41-4436-a088-10c03b2d92a8	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	13:59:48	e64ff610-4eef-4240-a53b-65b2f192d575	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:00:03	7436335a-d0aa-4b4b-bf6d-679aa93204ca	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:00:18	ebc43ed3-5f55-48c8-a3f8-74170544ffad	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:00:33	2ef5f8a7-9cd6-49d5-b6b4-c770f069e9dd	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:00:48	5c530111-5885-4381-92f1-f2e1daab59b1	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:01:03	fd974592-30cd-426d-9726-ebb0b4b0841f	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:01:18	4c057f4b-b0a6-403e-b2b9-cf625929b35b	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:01:33	5bc24422-c210-4201-a916-c4f48b188fde	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:01:48	3b470b55-2c60-42ff-bea5-04c358dd9fdb	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:02:03	2def542c-ba33-48ca-88d1-3600d0bf619a	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:02:18	a6b8c3e4-93ce-45de-b28f-01ffeddb627c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:02:33	76dceacf-c1c4-411b-af98-25756b1cdd3a	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:02:48	11706987-b4c4-48be-9d11-85f043903e26	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:03:03	0d0eea38-1108-46f8-bbca-7b10b299b91c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:03:18	dbbc333a-1b10-4a7c-b067-a16bbed08e61	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:03:33	8d61a186-faaf-4ccb-901e-36af6e02c7d2	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:03:48	bbfc9146-c796-4529-b6df-a1207dc0fd2d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:04:03	7bb62693-9dc9-486a-bd99-f5704495aab1	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:04:18	a7851e91-7d2d-4c5a-8b1f-037e1ed5155e	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:04:33	b2f29a53-511c-429b-92ed-5ba5964c68c1	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:05:03	569d129a-2500-494e-b59e-1beb4c2a6da0	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:05:18	de906510-219e-4347-ae37-083540b14c83	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:05:26	fc4c6ae8-f601-4f26-85c9-ab6ddb720f54	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:05:27	b361fabb-bfb6-4afa-82b4-391e11c40c5c	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:05:33	23f50aa1-6286-4a0c-acb6-ed946e8b2974	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:05:48	b33de9a1-19de-4a68-9f1a-78734dc896e1	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:06:03	9f32a2d5-0514-4363-a365-0f666ef1d151	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:06:18	10b7db17-cb21-44e6-9e0c-0f2871c5a17a	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:06:25	8732896c-b884-4aba-aede-5696d670ee12	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:06:26	7268ba17-9cca-4f8e-9c18-b479780659a7	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:06:33	bde2251c-7677-4e54-a7da-223012d732df	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:06:48	eaf0783d-ef86-4ff8-bf36-bc864d499b90	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:07:03	2f1d4208-218c-44a9-b66b-d89f505e3389	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:07:18	dd2f087a-edc2-4a9a-a5c6-063dee97cf92	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:07:33	4ecdf567-6212-4a35-9fb0-70cd9fb0a101	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:07:48	68ebcfe5-8a0e-4428-ba44-b3c671ac3509	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:08:03	9236fb73-4644-4853-90a5-012704057cd3	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:08:18	584bad3a-d629-4a63-a1e5-b5197e75aaf4	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:08:33	b77194df-94bb-4978-932a-47a3cb4bf9a7	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:08:48	a3644a74-1280-4719-932b-07bfba8282c5	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:09:03	ac678a44-c411-44a5-8d21-7b7d407fc101	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:09:18	b17e4c30-c510-485a-ac05-7556f8b0b5b4	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:09:33	d31469a7-49ec-42ae-91d3-92c06ce150f0	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:09:48	cd3cf298-4303-4f79-8b14-86bd298702fc	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:10:03	a361e39d-c073-4b5a-8e66-4b5c02f7f141	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:10:31	9bd3748b-2cd0-41ad-8f95-b8f1b994043e	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:10:32	ebd8c09d-21ec-4dc9-9dd8-d82d812e2493	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:10:33	f80c64ca-a3e9-4c2c-a33f-ee426173375e	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:10:33	a716e5c8-52f1-46cc-acf2-f8a20f7fe5e0	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:10:33	a038bc7e-dc74-46e8-af02-c3107874ae81	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:10:48	20d4fc79-00f7-40a9-830d-db32f76c2730	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:11:03	5ecc75dd-4b6c-484a-8b53-6ff606a00654	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:11:18	9aff2ac6-94e0-4888-895b-2042e60b6f23	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:11:33	4cc0d48f-f9d7-4e72-99c0-5ad2792499ba	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:11:48	3cafd62a-5f6a-4a32-8679-7767b4a84a3d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:12:03	08de8b09-f843-469d-b1cb-8e285f01c01d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:12:33	7f2bd11e-b3f8-4855-8672-a419a5fd2f01	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:12:48	001a0c64-be9e-4d30-b870-7977f69fc28c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:13:03	555e1725-db7f-469a-8048-2834e6fca93c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:13:18	cf35a738-0dc3-484f-8240-23a016a990a7	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:13:33	1d453740-210e-4ff9-baca-2bdd5920b27d	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:14:33	c5c3dd1f-09cf-4b76-8b64-16f4d5afccad	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:14:48	3667ffc2-0e2a-445a-9efb-2043324d3bfe	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:15:03	f40fd3f8-ad31-4b1e-aae5-9b6a02d6839e	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:15:03	bdc9d081-c73e-4bf8-beac-b197948ca1b5	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:15:04	57749cfe-d1e5-4f8a-a0b8-b34fa73a465f	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:15:18	2c48a6be-5d39-4127-9534-0f08d9974dfa	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:15:33	281ab65e-88c4-4f74-9be6-13ad6a55602b	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:15:48	113a4061-b2ec-483b-b7d5-3b5eb53b409f	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:16:03	13187dc6-4558-4132-a2ce-55d4ecbbf7f0	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:16:18	0a183c17-7e96-4dac-9e83-3508ccdad25c	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:16:33	04efe928-a331-468b-ae0c-d323a6988b50	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:16:48	145b0d45-77f7-4e6a-82aa-2b3deadc72c3	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:17:03	2b03c95c-5236-459d-9559-cb172aba3cc9	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:17:18	d1f1d884-17ab-4a1a-b021-c5dceafc02fb	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:17:29	1bf044d0-994b-4081-b6fb-d4d2b54a2891	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:17:29	0df9d9ef-5bf4-4bf1-897d-b2abe5d69680	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:17:30	4916c9c1-778f-4d66-8b76-b67fae689fb6	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:17:30	59a6c0d6-d8aa-4301-b8c9-625c61276c6d	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:17:33	4f546e28-51df-4175-b276-9f827baef7d8	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:17:48	4923c2ed-12db-4f45-88c9-15bf79501ab3	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:18:03	4f8fd3fd-d97f-4ce3-a328-fd99cb3bf14a	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:18:18	1b8f3630-b76d-4e2a-b8ef-56a2dec0d4e2	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:18:33	0753fc13-160f-4c65-b8d4-d7ff2ef6cde2	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:18:48	76f00bc7-f5c0-4e63-8d61-9fec0475b694	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:19:31	1ad1a512-eb48-459e-ac5f-0f45a9c5aa30	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:19:32	e05e8a9b-4ee6-4644-bae8-ac2f389fdd53	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:19:36	de02f2e4-84bb-446c-92f8-de27bf3ad33d	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:22:20	f1271452-d7a5-47d6-8397-8fd33690d975	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:23:27	d17edaa2-4e26-40a7-8c61-2eec0a2aa71f	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:23:27	8539b7bf-3741-46cf-8e22-b912164ad377	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
+20231210	14:23:33	667efeac-e37c-4fe8-b438-74d53b1366d9	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:23:48	8de16f61-3b04-429c-925d-b1c28624fc66	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:24:03	fe0875d9-54e5-442f-95d2-1658492c0688	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:24:18	6629ae1c-fb14-4268-918d-1151f2b32222	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:24:33	b575ac55-f9e6-4250-9f37-ea7ed9bfb591	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:24:48	64950383-2f40-4e6e-a6c0-a323b85a0c57	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:25:03	5f954c4b-c9c4-4501-a52a-c294dbdff791	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:25:18	f44ab0b6-3c63-462f-9dac-9c7066e11784	TypeError: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Promise 	 GET 	 /metrics 	 undefined
+20231210	14:25:37	d442e2a0-e7f9-4ee7-9e01-fc14c7235ac9	ReferenceError: a is not defined 	 GET 	 /favicon.ico 	 undefined
