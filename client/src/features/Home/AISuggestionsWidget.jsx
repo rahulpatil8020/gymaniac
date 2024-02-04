@@ -2,7 +2,10 @@ import WidgetWrapper from "components/WidgetWrapper";
 import React from "react";
 import { Stack, Divider, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { selectUserInfo } from "features/User/userSlice";
 const AISuggestionsWidget = ({ userInfo }) => {
+  const currentUser = useSelector(selectUserInfo);
   const navigate = useNavigate();
   return (
     <WidgetWrapper>
@@ -18,14 +21,23 @@ const AISuggestionsWidget = ({ userInfo }) => {
           Atlas is an AI program that you can use to create personalized workout
           goals and suggestions. Complete your profile to use this feature.
         </Typography>
-
-        <Button
-          onClick={() => {
-            navigate(`/profile/${userInfo?.username}`);
-          }}
-        >
-          Complete Profile
-        </Button>
+        {!currentUser?.personalInfo ? (
+          <Button
+            onClick={() => {
+              navigate(`/profile/${userInfo?.username}`);
+            }}
+          >
+            Complete Profile
+          </Button>
+        ) : (
+          <Button
+            onClick={() => {
+              navigate(`/atlas`);
+            }}
+          >
+            Get AI Sugggestions
+          </Button>
+        )}
       </Stack>
     </WidgetWrapper>
   );

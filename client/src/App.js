@@ -12,6 +12,7 @@ import { themeSettings } from "./theme";
 import PersistLogin from "features/Auth/PersistLogin";
 import Layout from "components/Layout";
 import Hero from "components/Hero";
+import Atlas from "features/Atlas";
 
 function App() {
   const mode = useSelector((state) => state.themeMode.mode);
@@ -30,6 +31,7 @@ function App() {
                   <Route index path="/" element={<HomePage />} />
                   <Route path="/chat" element={<ChatPage />} />
                   <Route path="/profile/:id" element={<ProfilePage />} />
+                  <Route path="/atlas" element={<Atlas />} />
                 </Route>
               </Route>
             </Route>
